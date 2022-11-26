@@ -1,0 +1,88 @@
+body {
+  background-color: #d1f5ff;
+}
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 10px 10px 10px;
+}
+
+/*HEADER AREA*/
+
+.headerTitle {
+  color: #004688;
+  font-size: 28px;
+}
+.headerTitle a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*MAIN CONTENT AREA*/
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+} 
+.BMIShowArea {
+  flex-direction: column;
+  align-items: center;
+}
+.yourBMI {
+  font-size: 35px;
+}
+.aboutBMI {
+  font-size: 20px;
+}
+
+.optionsArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.BMIInputsArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.BMIInputsArea label {
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+.BMIInputsArea input {
+  font-size: 17px;
+  text-align: center;
+  outline: 0;
+  border: 1px solid #909090;
+  border-radius: 5px;
+  padding: 3px 7px;
+}
+.BMIButtonsArea {
+  display: flex;
+  gap: 5px;
+}
+.BMIButtonsArea button {
+  background-color: transparent;
+  outline: 0;
+  font-size: 18px;
+  border: 1px solid #777;
+  padding: 3px 7px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+/*FOOTER AREA*/
+
+.footerSite small {
+  color: #909090;
+}
